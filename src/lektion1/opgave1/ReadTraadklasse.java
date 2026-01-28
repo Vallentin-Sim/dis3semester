@@ -1,4 +1,4 @@
-package opgave1.ex1;
+package lektion1.opgave1;
 
 import java.util.Objects;
 

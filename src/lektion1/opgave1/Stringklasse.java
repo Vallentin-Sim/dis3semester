@@ -1,4 +1,4 @@
-package opgave1.ex1;
+package lektion1.opgave1;
 
 public class Stringklasse {
     private String string = "";
