@@ -1,4 +1,4 @@
-package lektion2.headerlinesOpgave.seleton;
+package lektion2.headerlinesOpgave.skeleton;
 import java.net.*;
 import java.io.*;
 public class ServerThread extends Thread{
