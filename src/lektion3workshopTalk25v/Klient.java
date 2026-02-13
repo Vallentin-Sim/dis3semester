@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class Klient {
     public static void main(String[] args) throws IOException {
-        String host = "10.10.131.200";
+        String host = "192.168.0.83";
         int port = 6789;
         if (args.length >= 1) {
             host = args[0];
