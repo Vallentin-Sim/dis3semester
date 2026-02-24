@@ -37,10 +37,11 @@ class DijkstraExample {
         // Definer grafen
         Map<String, List<Edge>> graph = new HashMap<>();
         graph.put("A", Arrays.asList(new Edge("B", 6), new Edge("D", 1)));
-        graph.put("D", Arrays.asList(new Edge("E", 1), new Edge("B", 2)));
-        graph.put("E", Arrays.asList(new Edge("C", 5)));
         graph.put("B", Arrays.asList(new Edge("E", 2), new Edge("C", 5), new Edge("D", 2)));
         graph.put("C", Arrays.asList(new Edge("E", 5)));
+        graph.put("D", Arrays.asList(new Edge("E", 1), new Edge("B", 2)));
+        graph.put("E", Arrays.asList(new Edge("C", 5)));
+
         // Kør Dijkstra fra A
         Map<String, Integer> result = dijkstra(graph, "A");
 
