@@ -59,8 +59,4 @@ public class SimpleMqttCallBack implements MqttCallback {
     public void deliveryComplete(IMqttDeliveryToken token) {
         // not used in this example
     }
-
-    public int getStatus() {
-        return status;
-    }
 }
